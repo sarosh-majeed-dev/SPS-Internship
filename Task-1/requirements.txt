@@ -1,0 +1,14 @@
+# Core app
+streamlit>=1.30
+pypdf>=4.0
+python-docx>=1.1
+pandas>=2.0
+
+# Local AI engine (runs offline on CPU - no API key, no internet at run time)
+sentence-transformers>=2.6
+torch>=2.0
+transformers>=4.40
+
+# OCR for scanned / image-based PDFs (on-device, no external Tesseract binary)
+pymupdf>=1.24
+rapidocr-onnxruntime>=1.3
